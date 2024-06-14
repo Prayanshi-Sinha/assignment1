@@ -1,0 +1,126 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: brown;
+    background-image: url(https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?cs=srgb&dl=pexels-pixabay-235985.jpg&fm=jpg);
+    background-size: cover;
+}
+h1 {
+    background: rgb(91, 91, 172);
+    color: white;
+    padding:10px;
+    text-align: center;
+    border: 5px solid black;
+    /* border-radius: 20px; */
+    font-size: 50px;
+    text-shadow: 5px 5px black;
+}
+header h1 { 
+    margin: 0
+}
+nav ul {
+    /* list-style: none; */
+    padding: 10px;
+    text-align: center;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    margin-right: 80px
+}
+nav ul li { 
+    display: inline;
+    /* margin: 10px; */
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 25px;
+    margin-right: 40px;
+}
+h5{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 20px;
+}
+#b:hover{
+    text-decoration: underline;
+    /* text-shadow: 2px 2px white */
+}
+main {
+    padding: 20px;
+}
+#box{
+    width:400px;
+    height:570px;
+    border: 4px solid black;
+    border-radius: 10px;
+    background-color: rgb(189, 154, 108);
+}
+#box:hover{
+    color: white;
+    box-shadow: 0px 0px 5px 5px;
+}
+img{
+    border: 2px solid whitesmoke;
+    border-radius: 8px;
+    margin-left: 47px;
+    margin-top: 20px;
+    /* box-shadow: 5px 5px gray; */
+}
+img:hover{
+    box-shadow: 5px 5px white;
+}
+p{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 1000;
+}
+a{
+    margin-left: 160px;
+    text-decoration: none;
+    font-weight: 1000;
+    margin-bottom: 20px;
+}
+a:hover{
+    text-decoration: underline;
+}
+#container1{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+#container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+#container3{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin-bottom: 30px;
+}
+#container4{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+footer{
+    background-color: black;
+}
+#d{
+    color: beige;
+}
+
+
+
+
+
+
+
+
+
